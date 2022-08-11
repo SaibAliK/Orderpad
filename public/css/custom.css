@@ -1,0 +1,87 @@
+/* custom css styling here*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+/*=============================
+        body styling
+============================= */
+
+body{
+    font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #212112;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 7%;
+	background-color: #F4F7FD;
+	overflow-x: hidden;
+    transition: all 200ms linear;
+}
+
+/*===============================
+    pages styling start
+============================== */
+
+.page-heading{
+color: #fff;
+}
+
+
+/*crud page styling*/
+.action-btn-area{
+    height: 50px;
+}
+
+.action-btn-area-rx{
+    height: 73px;
+}
+
+.action-btn-area-pharmacy{
+height: 80px;
+}
+       .action-btn-area-pharmacy .row-title, .action-btn-area .row-title {
+            font-weight: bold;
+            color: #0073AA;
+        }
+ .profile-image{
+ 	width: 70px;
+ }
+ .card-rx-form{
+    background-color: #FBFBFD;
+    border: 1px solid #E6E6E7;
+ }
+ strong{
+            font-size: 12px;
+            color: #5A6872;
+        }
+.row-heading-width{
+    width: 100px;
+}
+.dataTables_length, .dataTables_filter{
+        padding: 0;
+}
+.paging_simple_numbers a{}
+
+.input-medication{
+    width:100%;
+    zoom: 2.5;
+    cursor: pointer;
+}
+
+.bg-urgent{
+    background: #E06666 !important;
+    color: #fff !important;
+}
+.bg-today{
+    background: #F4CCCC !important;
+    color: #000 !important;
+}
+.bg-today a,.bg-today button, .bg-urgent a, .bg-urgent button, .bg-urgent .row-title{
+    color: #fff !important;
+}
+.surgery-notes p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
